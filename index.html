@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Kanit:wght@100&family=Kaushan+Script&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <nav class="navbar position-fixed d-flex navbar-expand-sm navbar-dark bg-dark py-4">
+    <div class="container-fluid">
+      <a href="#" class="navbar-brand">Lorem</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+          <li class="nav-item">
+            <a href="#top" class="nav-link active">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link active">Concept</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projets" class="nav-link active no-wrap">Nos projets</a>
+          </li>
+          <li class="nav-item">
+            <a href="#tarifs" class="nav-link active">Tarifs</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link active">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="homebanner">
+    <img src="./img/bgphotshop.png" alt="banner" class="w-100 d-block position-relative bannerimg" />
+    <div class="imgContent position-absolute top-50 start-50 translate-middle text-start text-start-sm text-white">
+      <div class=" text-dark text-banner1 idée">Vos idées, notre savoir</div>
+      <div class="text-dark text-banner2 agence">Agence Lorem</div>
+      <div class="buttons mt-3">
+        <a href="#about">
+          <button class="btn btn-dark me-2 btn-sm" type="button">
+            En savoir plus
+          </button>
+        </a>
+        <a href="#projets">
+          <button class="btn btn-outline-dark btn-sm" type="button" id="about">
+            Nos projets
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="about-accordion mt-5">
+    <div class="row">
+      <div class="about col-lg-4 mb-3 mx-auto">
+        <h2 class="about">A propos</h2>
+        <hr />
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi qui
+        sunt nulla beatae nam non quibusdam velit autem iure, perferendis
+        assumenda ea laborum, nobis numquam? Doloribus quibusdam dolorum
+        adipisci nulla.
+      </div>
+
+      <div class="accordion col-lg-4 mx-auto" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button btn-outline-dark" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <img src="./img/chevron-right.svg" alt="chevron" />Les détails
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Doloremque distinctio necessitatibus reprehenderit sapiente
+              officia officiis, eligendi sint labore ratione sit in fugiat
+              porro placeat qui, saepe molestiae exercitationem impedit, ullam
+              neque! Nam odit libero, consequatur cumque exercitationem
+              commodi dignissimos ut.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <img src="./img/chevron-right.svg" alt="chevron" />Encore des
+              détails
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Doloremque distinctio necessitatibus reprehenderit sapiente
+              officia officiis, eligendi sint labore ratione sit in fugiat
+              porro placeat qui, saepe molestiae exercitationem impedit, ullam
+              neque! Nam odit libero, consequatur cumque exercitationem
+              commodi dignissimos ut.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <img src="./img/chevron-right.svg" alt="chevron" />Plus de
+              détails
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Doloremque distinctio necessitatibus reprehenderit sapiente
+              officia officiis, eligendi sint labore, ratione sit in fugiat
+              porro placeat qui, saepe molestiae exercitationem impedit, ullam
+              neque! Nam odit libero, consequatur cumque exercitationem
+              commodi dignissimos ut.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr class="dashed" />
+
+  <section class="card-group d-flex justify-content-center">
+    <div class="row justify-content-center">
+      <div class="card border-0" style="width: 18rem">
+        <div class="logo-title d-flex align-items-center">
+          <img src="./img/android logo.svg" class="card-img-top w-25" alt="android logo" />
+          <h5 class="card-title ms-3">Android</h5>
+        </div>
+        <div class="card-body">
+          <p class="card-text">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Cupiditate id consequatur, quisquam quam hic neque.
+          </p>
+        </div>
+      </div>
+      <div class="card border-0" style="width: 18rem">
+        <div class="logo-title d-flex align-items-center">
+          <img src="./img/basket3.svg" class="card-img-top w-25" alt="logo boutique" />
+          <h5 class="card-title ms-3">Boutique</h5>
+        </div>
+        <div class="card-body">
+          <p class="card-text">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Cupiditate id consequatur, quisquam quam hic neque.
+          </p>
+        </div>
+      </div>
+      <div class="card border-0" style="width: 18rem">
+        <div class="logo-title d-flex align-items-center">
+          <img src="./img/atom.png" class="card-img-top w-25" alt="logo tech" />
+          <h5 class="card-title ms-3">Tech</h5>
+        </div>
+        <div class="card-body">
+          <p class="card-text">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Cupiditate id consequatur, quisquam quam hic neque.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="containerParallax1 d-flex flex-column mt-2">
+  <div class="parallax1">
+    <div class="banner d-flex flex-column align-items-center justify-content-center text-center">
+      <h2>Etes-vous prêts à Commencer?</h2>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, quibusdam!</p>
+      <button class="btn btn-primary mx-auto"  id="projets">Démarrez maintenant</button>
+    </div>
+  </div>
+</section>
+
+
+  <section>
+    <h2 class="text-center mt-5 heading">Nos Projets</h2>
+    <p class="text-center">Nos réalisations</p>
+    <div class="row justify-content-center mt-4">
+      <div class="col-md-4 mb-4">
+        <img src="./img/img1.png" alt="image" class="image img-fluid d-block mx-auto" />
+      </div>
+      <div class="col-md-4 mb-4">
+        <img src="./img/img2.png" alt="image" class="image img-fluid d-block mx-auto" />
+      </div>
+      <div class="col-md-4 mb-4">
+        <img src="./img/img3.png" alt="image" class="image img-fluid d-block mx-auto" />
+      </div>
+      <div class="col-md-4 mb-4">
+        <img src="./img/img4.webp" alt="image" class="image img-fluid d-block mx-auto" />
+      </div>
+      <div class="col-md-4 mb-4">
+        <img src="./img/img5.png" alt="image" class="image img-fluid d-block mx-auto" />
+      </div>
+      <div class="col-md-4 mb-4">
+        <img src="./img/img4.webp" alt="image" class="image img-fluid d-block mx-auto" />
+      </div>
+    </div>
+  </section>
+
+  <section class="containerParallax1 position-relative">
+    <div class="parallax2">
+      <div class="banner2">
+    <div class="carousel-container">
+      <div class="textContentCarroussel">
+        <div class="items " id="tarifs">"Lorem, ipsum dolor sit amet."</div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </section>
+
+  <section class="text-center mt-5">
+    <h2 class="heading">Nos offres</h2>
+    <hr />
+  </section>
+
+  <section class="offres mt-4">
+    <div class="row d-flex justify-content-center">
+      <div class="card tarif text-center mb-3 mx-4 border-0 mt-5 mt-sm-0" style="width: 18rem">
+        <div class="card-body">
+          <div class="niveau">
+            <h5 class="card-title">Amateur</h5>
+          </div>
+          <p class="card-text text-center">
+          <div class="prix">
+            <h4>9.99 €/mois</h4>
+          </div>
+          <p class="mt-1">2GB de Bande passante</p>
+          <br>
+          <p class="mt-1">150GB de stockage</p>
+          <br>
+          <p class="mt-1">5 Profils</p>
+          <br>
+          <p class="mt-1">3 Noms de domaine</p>
+          </p>
+          <button class="sub">S'inscrire</button>
+        </div>
+      </div>
+      <div class="card tarif text-center mb-3 mx-4 border-0 mt-5 mt-sm-0" style="width: 18rem">
+        <div class="card-body">
+          <h5 class="card-title">Professionnel</h5>
+          <p class="card-text">
+          <h4>79.99 €/mois</h4>
+          <p class="mt-1">4GB de Bande passante</p>
+          <br>
+          <p class="mt-1">850GB de stockage</p>
+          <br>
+          <p class="mt-1">15 Profils</p>
+          <br>
+          <p>10 Noms de domaine</p>
+          </p>
+          <button class="sub">S'inscrire</button>
+        </div>
+      </div>
+      <div class="card tarif text-center mb-3 mx-4 border-0 mt-5 mt-sm-0" style="width: 18rem">
+        <div class="card-body">
+          <h5 class="card-title">Expert</h5>
+          <p class="card-text">
+          <h4>400 €/mois</h4>
+          <p class="mt-1">10GB de Bande passante</p>
+          <br>
+          <p class="mt-1">2050GB de stockage</p>
+          <br>
+          <p class="mt-1">80 Profils</p>
+          <br>
+          <p class="mt-1">100 Noms de domaine</p>
+          </p>
+          <button class="sub">S'inscrire</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="dashed">
+
+  <div class="about-accordion mt-5" id="about">
+    <div class="row">
+      <div class="about col-lg-4 mb-3 mx-auto">
+        <h2>Nos compétences</h2>
+        <hr />
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi qui
+        sunt nulla beatae nam non quibusdam velit autem iure, perferendis
+        assumenda ea laborum, nobis numquam? Doloribus quibusdam dolorum
+        adipisci nulla.
+      </div>
+
+      <div class=" progBars col-lg-4 mx-auto" id="progress">
+        <div class="jauges d-flex flex-column">
+          <div class="25">
+            <p>Marketing Digital</p>
+            <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0"
+              aria-valuemax="100">
+              <div class="progress-bar" style="width: 25%"></div>
+            </div>
+          </div>
+          <div class="50 mt-4">
+            <p>Growth Hacking</p>
+            <div class="progress" role="progressbar" aria-label="Info striped example" aria-valuenow="50"
+              aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar progress-bar-striped bg-basic" style="width: 50%"></div>
+            </div>
+          </div>
+          <div class="75 mt-4">
+            <p>Communication</p>
+            <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0"
+              aria-valuemax="100">
+              <div class="progress-bar" style="width: 75%"></div>
+            </div>
+          </div>
+
+          <div class="100 mt-4">
+            <p>Réseaux</p>
+            <div class="progress" role="progressbar" aria-label="Info striped example" aria-valuenow="100"
+              aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar progress-bar-striped bg-basic" style="width: 100%"></div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="dashed">
+
+    <div class="brandLogos d-flex justify-content-center">
+      <div class="row">
+        <div class="col-3 mb-3">
+          <img src="./img/spotify.jpg" alt="spotify logo" class="img-fluid">
+        </div>
+        <div class="col-3 mb-3">
+          <img src="./img/microsoft.jpg" alt="MS logo" class="img-fluid">
+        </div>
+        <div class="col-3 mb-3">
+          <img src="./img/apple.jpg" alt="apple logo" class="img-fluid">
+        </div>
+        <div class="col-3 mb-3">
+          <img src="./img/google.jpg" alt="google logo" class="img-fluid">
+        </div>
+      </div>
+    </div>
+
+    <hr class="dashed">
+
+    <div class="container" id="contact">
+      <h2 class="heading text-center">Contactez-nous</h2>
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-8">
+          <form action="">
+            <div class="input-group">
+              <span class="input-group-text">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-person-fill" viewBox="0 0 16 16">
+                  <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+                </svg>
+              </span>
+              <input type="text" class="form-control" placeholder="Votre Nom" aria-label="input group example"
+                aria-describedby="basic-addon-1">
+            </div>
+            <div class="input-group mt-3">
+              <span class="input-group-text">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                  <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
+                </svg>
+              </span>
+              <input type="text" class="form-control" placeholder="Votre Email" aria-label="input group example"
+                aria-describedby="basic-addon-1">
+            </div>
+            <div class="input-group mt-3">
+              <span class="input-group-text">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+                  <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+                  <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z"/>
+                </svg>
+              </span>
+              <textarea class="form-control" placeholder="Votre Message" aria-label="input group example"
+                aria-describedby="basic-addon1" rows="4"></textarea>
+          </form>
+
+          
+        </div>
+        <button class="btn btn-primary col-lg-12 col-12">Envoyer</button>
+
+        <p class="text-center mt-5">2023 Company, Inc.</p>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
