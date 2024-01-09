@@ -5,6 +5,10 @@
   padding: 0;
 }
 
+body{
+  overflow-x: hidden;
+}
+
 @media (min-width: 575.5px) {
   .navbar-brand {
     padding-right: 15vw;
